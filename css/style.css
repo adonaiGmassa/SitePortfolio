@@ -8,7 +8,11 @@
     padding: 5px 10px;
     border: 2px outset black;
     width: 300px; /* largeur */
-    height: 500px; /* longueur */
+    height: 350px; /* longueur */
+}
+.title{
+    position: absolute;
+    box-sizing: border-box;
 }
 
 .main-content {
@@ -16,7 +20,24 @@
     background-color: gray;
     padding: 5px 10px;
     border: 2px outset black;
-    width: 500px; /* largeur */
+    width: 1000px; /* largeur */
     height: 500px; /* longueur */
-    margin-left: 10px; /* espace entre la sidebar et le contenu principal */
+    margin-left: 30px; /* espace entre la sidebar et le contenu principal */
+}
+.navbar {
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.navbar .navbar-list ul {
+    display: flex;
+    
+
+}
+.navbar-list ul li{
+    margin: 15px;
 }
