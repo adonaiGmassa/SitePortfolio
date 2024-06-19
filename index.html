@@ -3,32 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Porfolio d'Adonaï</title>
-        <meta type="desctiption" content="Ceci est mon portfolio étudiant"/>
-        <link rel="stylesheet" hrel="css/style.css" type="text/css">
+        <title>Portfolio d'Adonaï</title><!-- Titre de la page -->
+        <!-- Description du site  -->
+        <meta name="description" content="Ceci est mon portfolio étudiant"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
         <main>
+            <!-- Barre latérale pour les informations de l'utilisateur -->
             <aside class="sidebar">
-                <figure class="=photo-box">
+                <!-- Conteneur pour la photo de l'utilisateur -->
+                <figure class="photo-box">
                     <img src="img/moi.PNG" alt="Massa Adonaï" width="80">
                 </figure>
+                <!-- Barre d'informations de l'utilisateur -->
                 <div class="info-bar">
                     <h1 class="nom" title="Massa Adonaï">Massa Adonaï</h1>
-                    <p class="title"> Developpeur Informatique</p>
+                    <p class="title">Développeur Informatique</p>
                 </div>
+                <!-- Informations supplémentaires -->
                 <div class="info">
                     <div class="separateur"></div>
+                    <!-- Liste des informations -->
                     <ul class="info-list">
-                        <li class="info-contenu"><!--contact-item-->
+                        <!-- Élément de la liste contenant les informations de contact -->
+                        <li class="info-contenu">
+                            <!-- Conteneur pour l'icône d'information -->
                             <div class="icone-box">
-                                <ion-ion name="Age"></ion-ion>
+                                <ion-icon name="person"></ion-icon>
                             </div>
                             <div class="info-txt">
-                                <p class="info-titre">Age</p>
+                                <p class="info-titre">Âge</p>
                             </div>
                             <div class="icone-box">
-                                <ion-ion name="dateN"></ion-ion>
+                                <ion-icon name="calendar"></ion-icon>
                             </div>
                             <div class="info-txt">
                                 <p class="info-titre">Date de naissance</p>
@@ -37,21 +45,19 @@
                     </ul>
                 </div>
             </aside>
-            <h1>"C'est mon portfolio"</h1>
+            <h1>C'est mon portfolio</h1>
+            <!-- Barre de navigation -->
             <nav class="navbar">
+                <!-- Liste des éléments de navigation -->
                 <ul class="navbar-liste">
-                    <li> <button href="">A propos</button></li>
-                    <li> <button href="">A propos</button></li>
-                    <li> <button href="">A propos</button></li>
-                    <li> <button href="">A propos</button></li>
-                    
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
         </main>
-
+        <!-- Inclusion du fichier JavaScript -->
+        <script src="js/App.js"></script>
     </body>
-    <script src="js/App.js">
-
-    </script>
 </html>
