@@ -1,5 +1,22 @@
-.sidebar{
+.content{
+    display: flex;
+}
+
+.sidebar {
     font-size: 2rem;
     background-color: gray;
-    display: block;
+    padding: 5px 10px;
+    border: 2px outset black;
+    width: 300px; /* largeur */
+    height: 500px; /* longueur */
+}
+
+.main-content {
+    font-size: 2rem;
+    background-color: gray;
+    padding: 5px 10px;
+    border: 2px outset black;
+    width: 500px; /* largeur */
+    height: 500px; /* longueur */
+    margin-left: 10px; /* espace entre la sidebar et le contenu principal */
 }
