@@ -11,9 +11,11 @@
     overflow: hidden;
     width: 200px; /* largeur */
     height: 600px; /* longueur */
+    border-radius: 30px;
     
 }
-.sidebar .active{ max-height: 600px;}
+.sidebar .active { 
+    max-height: 600px;}
 .info-bar{
     align-items: center;
     text-align: center;
@@ -22,7 +24,6 @@
 .photo-box img{
     border-radius: 30px;
     width: 100px;
-   
 }
 .photo-box {
     width: 100px;
