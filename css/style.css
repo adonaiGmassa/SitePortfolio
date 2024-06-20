@@ -3,21 +3,40 @@
     gap: 10px; /* Espace entre la sidebar et le contenu principal */
 }
 .sidebar {
+    
     font-size: 2rem;
-    display: inline;
     background-color: gray;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border: 2px outset black;
     overflow: hidden;
-    width: 250px; /* largeur */
+    width: 200px; /* largeur */
     height: 600px; /* longueur */
     
 }
+.sidebar .active{ max-height: 600px;}
+.info-bar{
+    align-items: center;
+    text-align: center;
+}
+
+.photo-box img{
+    border-radius: 30px;
+    width: 100px;
+   
+}
+.photo-box {
+    width: 100px;
+}
+.nom{
+    font-size: 30px;
+    text-align: center;
+    margin: 7 7 15px ;
+}
 .title{
-    position: absolute;
     box-sizing: border-box;
     color: white;
 }
+.info{font-size: 15px;}
 .main-content {
     font-size: 2rem;
     background-color: gray;
@@ -25,11 +44,8 @@
     padding: 5px 10px;
     border: 2px outset black;
     overflow: hidden;
-    width: 1000px; /* largeur */
+    width: 900px; /* largeur */
     height: 600px; /* longueur */
-}
-.info-ba{
-    position: absolute;
 }
 .navbar {
     position: absolute;
@@ -53,13 +69,24 @@
     list-style-type : none;/* enleve les points devant les nom*/
     justify-content: space-evenly;
 }
+.page{
+    font-size: 2rem;
+    display: inline;
+    background-color: gray;
+    padding: 5px 5px;
+    border: 2px hidden black;
+    overflow: hidden;
+    margin-top: 90px;
+    width: 900px; /* largeur */
+    height: 600px; /* longueur */
+}
 
 
 
 
 .footer{
-    /*position: absolute;*/
     background-color: #222;
+    color: white;
     display: flex;
     padding: 10px;
     font-size: 0.9em;

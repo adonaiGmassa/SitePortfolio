@@ -12,64 +12,80 @@
     <body>
         <div class="content">
             <!-- Barre latérale pour les informations de l'utilisateur -->
-        <aside class="sidebar">
-            <!-- Conteneur pour la photo de l'utilisateur -->
-            <figure class="photo-box">
-                <img src="img/moi.PNG" alt="Massa Adonaï" width="80">
-            </figure>
-            <!-- Barre d'informations de l'utilisateur -->
-            <div class="info-bar">
-                <h1 class="nom" title="Massa Adonaï">Massa Adonaï</h1>
-                <p class="title">Développeur Informatique</p>
-            </div>
-            <!-- Informations supplémentaires -->
-             <div class="info">
-                <div class="separateur"></div>
-                <!-- Liste des informations -->
-                <ul class="info-list">
-                    <!-- Élément de la liste contenant les informations de contact -->
-                    <li class="info-contenu">
-                        <!-- Conteneur pour l'icône d'information -->
-                        <div class="icone-box">
-                            <ion-icon name="person"></ion-icon>
-                        </div>
-                        <div class="info-txt">
-                            <p class="info-titre">Âge</p>
-                        </div>
-                        <div class="icone-box">
-                            <ion-icon name="calendar"></ion-icon>
-                        </div>
-                        <div class="info-txt">
-                            <p class="info-titre">Date de naissance</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+            <aside class="sidebar" data-sidebar>
+                <div class="info-bar">
+                    <!-- Conteneur pour la photo de l'utilisateur -->
+                    <figure class="photo-box"><img src="img/moi.PNG" alt="Massa Adonaï" width="80"></figure>
+                    <!-- Barre d'informations de l'utilisateur -->
+                    <p class="nom" title="Massa Adonaï">Massa Adonaï</p>
+                    <p class="title">Développeur Informatique</p>
+                </div>
+                <!-- Informations supplémentaires -->
+                 <div class="info">
+                    <div class="separateur"><hr></div>
+                    <!-- Liste des informations -->
+                    <ul class="info-list">
+                        <!-- Élément de la liste contenant les informations de contact -->
+                        <li class="info-contenu">
+                            <!-- Conteneur pour l'icône d'information -->
+                            <div class="icone-box">
+                                <ion-icon name="age"></ion-icon>
+                            </div>
+                            <div class="info-txt">
+                                <p class="info-titre">Âge</p>
+                            </div>
+                            <div class="icone-box">
+                                <ion-icon name="calendar"></ion-icon>
+                            </div>
+                            <div class="info-txt">
+                                <p class="info-titre">Date de naissance</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--icon pour les reseaux sociaux-->
+                    <ul class="iconRS">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                
 
-        <main class="main-content">
-            <header>
-                <!-- Barre de navigation -->
-                <nav class="navbar">
-                    <!-- Liste des éléments de navigation -->
-                    <div class="navbar-list">
-                        <ul>
-                            <li><a href="#about">À propos</a></li>
-                            <li><a href="#skills">Compétences</a></li>
-                            <li><a href="#projects">Projets</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                   
-                </nav>
-            </header>
-            <div class="page">
+            </aside>
 
-            </div>
-        </main>
+            <main class="main-content">
+                <header>
+                    <!-- Barre de navigation -->
+                    <nav class="navbar">
+                        <!-- Liste des éléments de navigation -->
+                        <div class="navbar-list">
+                            <ul>
+                                <li><a href="#about">À propos</a></li>
+                                <li><a href="#skills">Compétences</a></li>
+                                <li><a href="#projects">Projets</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                       
+                    </nav>
+                </header>
+                <div class="separateur"><hr></div>
+                <div class="page">
+    
+                </div>
+            </main>
 
         </div>
-        <!-- Début du footer -->
+
+        <!-- footer -->
         <footer>
             <div class="footer">
                 <div class="footer-G">
@@ -84,7 +100,6 @@
                 </div>
             </div>
         </footer>
-    <!-- Fin du footer -->
         
         <!-- Inclusion du fichier JavaScript -->
             <script src="js/App.js"></script>
