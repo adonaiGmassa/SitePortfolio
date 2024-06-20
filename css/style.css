@@ -36,7 +36,11 @@
     box-sizing: border-box;
     color: white;
 }
-.info{font-size: 15px;}
+.info{
+    font-size: 15px;
+    max-width: calc(100% - 64px);
+    width: calc(100% - 64px);
+}
 .main-content {
     font-size: 2rem;
     background-color: gray;
